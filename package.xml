@@ -11,6 +11,8 @@
         <members>Ac1</members>
         <members>Ac2</members>
         <members>AccountSelectClassController</members>
+        <members>ApexClass1</members>
+        <members>ApexTestClass1</members>
         <members>AppCls3</members>
         <members>BasicInfo</members>
         <members>ChangePasswordController</members>
