@@ -11,6 +11,7 @@
         <members>A12</members>
         <members>A13</members>
         <members>A14</members>
+        <members>A1501</members>
         <members>ARApexclass2</members>
         <members>ARApexclass234</members>
         <members>ARApexclass2345</members>
@@ -23,6 +24,7 @@
         <members>ApexTestClass1</members>
         <members>AppCls3</members>
         <members>BasicInfo</members>
+        <members>Cclass_1</members>
         <members>ChangePasswordController</members>
         <members>ChangePasswordControllerTest</members>
         <members>CommitController</members>
@@ -120,6 +122,7 @@
         <members>MyProfilePageController</members>
         <members>MyProfilePageControllerTest</members>
         <members>NewTestQuestPage</members>
+        <members>OddEven</members>
         <members>OrderFormController</members>
         <members>RabitServiceUtils</members>
         <members>RabitUtils</members>
