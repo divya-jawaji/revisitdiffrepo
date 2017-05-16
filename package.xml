@@ -626,6 +626,7 @@
         <members>Partner Community Login User</members>
         <members>Partner Community User</members>
         <members>ReadOnly</members>
+        <members>SampleTestProfile</members>
         <members>Siteforce Only User</members>
         <members>SolutionManager</members>
         <members>Standard</members>
