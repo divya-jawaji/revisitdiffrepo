@@ -601,6 +601,14 @@
         <name>ApexComponent</name>
     </types>
     <types>
+        <members>test</members>
+        <name>ApexTestSuite</name>
+    </types>
+    <types>
+        <members>HelloWorldTriggerTest1</members>
+        <name>ApexTrigger</name>
+    </types>
+    <types>
         <members>Account.Active__c</members>
         <members>Account.CustomerPriority__c</members>
         <members>Account.NumberofLocations__c</members>
