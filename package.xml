@@ -137,6 +137,7 @@
         <members>WebtoCaseController</members>
         <members>WeekendWishes</members>
         <members>WorkShop</members>
+        <members>a16testclass</members>
         <members>agf__ADM_AcceptanceCriterionCloner</members>
         <members>agf__ADM_AddWorkToPrioritizerExtension</members>
         <members>agf__ADM_AddWorkToPrioritizerExtensionTest</members>
