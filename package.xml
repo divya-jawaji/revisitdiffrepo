@@ -134,6 +134,7 @@
         <members>SiteRegisterController</members>
         <members>SiteRegisterControllerTest</members>
         <members>TestApexClass</members>
+        <members>VijayClass3</members>
         <members>WebtoCaseController</members>
         <members>WeekendWishes</members>
         <members>WorkShop</members>
