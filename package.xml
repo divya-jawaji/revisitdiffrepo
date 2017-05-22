@@ -671,4 +671,8 @@
         <members>thankyou Profile</members>
         <name>Profile</name>
     </types>
+    <types>
+        <members>w3</members>
+        <name>RemoteSiteSetting</name>
+    </types>
 </Package>
