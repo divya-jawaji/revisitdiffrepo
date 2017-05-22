@@ -613,11 +613,17 @@
     </types>
     <types>
         <members>Case.Standard</members>
+        <members>Lead.Standard</members>
         <name>AssignmentRule</name>
     </types>
     <types>
         <members>Case</members>
+        <members>Lead</members>
         <name>AssignmentRules</name>
+    </types>
+    <types>
+        <members>DataCloudGeoLocation</members>
+        <name>CleanDataService</name>
     </types>
     <types>
         <members>Account.Active__c</members>
