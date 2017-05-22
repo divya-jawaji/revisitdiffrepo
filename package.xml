@@ -613,6 +613,7 @@
     </types>
     <types>
         <members>Case.Standard</members>
+        <members>Case.casearrun1</members>
         <members>Lead.Standard</members>
         <name>AssignmentRule</name>
     </types>
