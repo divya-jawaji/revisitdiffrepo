@@ -632,6 +632,11 @@
         <name>Community</name>
     </types>
     <types>
+        <members>standard__Platform</members>
+        <name>CustomApplication</name>
+    </types>
+    <types>
+        <members>AR2_na11__c.email__c</members>
         <members>Account.Active__c</members>
         <members>Account.CustomerPriority__c</members>
         <members>Account.NumberofLocations__c</members>
