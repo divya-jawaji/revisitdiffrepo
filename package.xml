@@ -628,6 +628,10 @@
         <name>CleanDataService</name>
     </types>
     <types>
+        <members>Internal Zone</members>
+        <name>Community</name>
+    </types>
+    <types>
         <members>Account.Active__c</members>
         <members>Account.CustomerPriority__c</members>
         <members>Account.NumberofLocations__c</members>
