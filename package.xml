@@ -32,6 +32,9 @@
         <members>CommitController</members>
         <members>CommitHistoryController</members>
         <members>ContactController</members>
+        <members>Customer_Satisfaction_Survey_1</members>
+        <members>Customer_Satisfaction_Survey_2</members>
+        <members>Customer_Satisfaction_Survey_3</members>
         <members>DependentPicklistDemoController</members>
         <members>EmailAttachment</members>
         <members>EmailtoLead</members>
