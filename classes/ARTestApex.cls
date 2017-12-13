@@ -1,14 +1,4 @@
 public class ARTestApex {
-//comment
-//comment 2
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//comment12
+    //class from sampathorg1
+
 }
