@@ -648,6 +648,10 @@
         <name>CustomField</name>
     </types>
     <types>
+        <members>LightningSalesConsole_UtilityBar</members>
+        <name>FlexiPage</name>
+    </types>
+    <types>
         <members>Admin</members>
         <members>AutoRABIT Sales</members>
         <members>Chatter External User</members>
