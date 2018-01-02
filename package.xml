@@ -1167,9 +1167,7 @@
         <members>Quickstart</members>
         <members>SP</members>
         <members>Scope_Poc_Information__c</members>
-        <members>TripForce</members>
         <members>Waypoint__c</members>
-        <members>lOCALTEST</members>
         <name>CustomTab</name>
     </types>
     <types>
