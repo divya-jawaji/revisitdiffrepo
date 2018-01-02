@@ -1159,8 +1159,6 @@
         <name>CustomSite</name>
     </types>
     <types>
-        <members>Customer_Satisfaction_Survey__c</members>
-        <members>Expense__c</members>
         <members>Field_Sales_App</members>
         <members>Professional__c</members>
         <members>Questionnaire_Implementation__c</members>
@@ -1294,8 +1292,6 @@
         <name>FlowDefinition</name>
     </types>
     <types>
-        <members>AutoRABIT_Sales_Group</members>
-        <members>BPM_Services_Group</members>
         <members>Consulting_Group</members>
         <members>Marketing_group</members>
         <name>Group</name>
