@@ -1634,7 +1634,6 @@
         <members>NewNote</members>
         <members>NewOpportunity</members>
         <members>NewTask</members>
-        <members>Quote.SendEmail</members>
         <members>SendEmail</members>
         <members>Task.Defer</members>
         <members>Task.Defer_0</members>
