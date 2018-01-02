@@ -56,143 +56,8 @@
         <actionName>View</actionName>
         <type>Default</type>
     </actionOverrides>
-    <businessProcesses>
-        <fullName>Customer Support</fullName>
-        <isActive>true</isActive>
-        <values>
-            <fullName>Closed</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Future Release</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>In Progress</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Open</fullName>
-            <default>true</default>
-        </values>
-    </businessProcesses>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>true</enableFeeds>
-    <fieldSets>
-        <fullName>lntcms__SimilarCases</fullName>
-        <availableFields>
-            <field>ContactId</field>
-            <isFieldManaged>false</isFieldManaged>
-            <isRequired>false</isRequired>
-        </availableFields>
-        <availableFields>
-            <field>CreatedById</field>
-            <isFieldManaged>false</isFieldManaged>
-            <isRequired>false</isRequired>
-        </availableFields>
-        <availableFields>
-            <field>Description</field>
-            <isFieldManaged>false</isFieldManaged>
-            <isRequired>false</isRequired>
-        </availableFields>
-        <availableFields>
-            <field>Contact.Email</field>
-            <isFieldManaged>false</isFieldManaged>
-            <isRequired>false</isRequired>
-        </availableFields>
-        <availableFields>
-            <field>lntcms__EngineeringReqNumber__c</field>
-            <isFieldManaged>false</isFieldManaged>
-            <isRequired>false</isRequired>
-        </availableFields>
-        <availableFields>
-            <field>Owner.Id</field>
-            <isFieldManaged>false</isFieldManaged>
-            <isRequired>false</isRequired>
-        </availableFields>
-        <availableFields>
-            <field>Id</field>
-            <isFieldManaged>false</isFieldManaged>
-            <isRequired>false</isRequired>
-        </availableFields>
-        <availableFields>
-            <field>Account.Id</field>
-            <isFieldManaged>false</isFieldManaged>
-            <isRequired>false</isRequired>
-        </availableFields>
-        <availableFields>
-            <field>Contact.Id</field>
-            <isFieldManaged>false</isFieldManaged>
-            <isRequired>false</isRequired>
-        </availableFields>
-        <availableFields>
-            <field>Contact.MasterRecordId</field>
-            <isFieldManaged>false</isFieldManaged>
-            <isRequired>false</isRequired>
-        </availableFields>
-        <availableFields>
-            <field>Origin</field>
-            <isFieldManaged>false</isFieldManaged>
-            <isRequired>false</isRequired>
-        </availableFields>
-        <availableFields>
-            <field>ParentId</field>
-            <isFieldManaged>false</isFieldManaged>
-            <isRequired>false</isRequired>
-        </availableFields>
-        <availableFields>
-            <field>Contact.Phone</field>
-            <isFieldManaged>false</isFieldManaged>
-            <isRequired>false</isRequired>
-        </availableFields>
-        <availableFields>
-            <field>lntcms__Product__c</field>
-            <isFieldManaged>false</isFieldManaged>
-            <isRequired>false</isRequired>
-        </availableFields>
-        <availableFields>
-            <field>Reason</field>
-            <isFieldManaged>false</isFieldManaged>
-            <isRequired>false</isRequired>
-        </availableFields>
-        <availableFields>
-            <field>Type</field>
-            <isFieldManaged>false</isFieldManaged>
-            <isRequired>false</isRequired>
-        </availableFields>
-        <description>In PossibleDuplicates visualforce page.</description>
-        <displayedFields>
-            <field>CaseNumber</field>
-            <isFieldManaged>false</isFieldManaged>
-            <isRequired>false</isRequired>
-        </displayedFields>
-        <displayedFields>
-            <field>Subject</field>
-            <isFieldManaged>false</isFieldManaged>
-            <isRequired>false</isRequired>
-        </displayedFields>
-        <displayedFields>
-            <field>CreatedDate</field>
-            <isFieldManaged>false</isFieldManaged>
-            <isRequired>false</isRequired>
-        </displayedFields>
-        <displayedFields>
-            <field>Status</field>
-            <isFieldManaged>false</isFieldManaged>
-            <isRequired>false</isRequired>
-        </displayedFields>
-        <displayedFields>
-            <field>AccountId</field>
-            <isFieldManaged>false</isFieldManaged>
-            <isRequired>false</isRequired>
-        </displayedFields>
-        <displayedFields>
-            <field>OwnerId</field>
-            <isFieldManaged>false</isFieldManaged>
-            <isRequired>false</isRequired>
-        </displayedFields>
-        <label>SimilarCases</label>
-    </fieldSets>
     <fields>
         <fullName>AccountId</fullName>
         <trackFeedHistory>false</trackFeedHistory>
@@ -208,57 +73,6 @@
         <type>Lookup</type>
     </fields>
     <fields>
-        <fullName>Assigned_On__c</fullName>
-        <description>captures the date on when the case has been assigned to a resource</description>
-        <externalId>false</externalId>
-        <label>Assigned On</label>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>DateTime</type>
-    </fields>
-    <fields>
-        <fullName>Assigned_Status__c</fullName>
-        <description>captures the information if the case is assigned to a resource or not</description>
-        <externalId>false</externalId>
-        <label>Assigned Status</label>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Picklist</type>
-        <valueSet>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>Yes</fullName>
-                    <default>false</default>
-                    <label>Yes</label>
-                </value>
-                <value>
-                    <fullName>No</fullName>
-                    <default>false</default>
-                    <label>No</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
-    </fields>
-    <fields>
-        <fullName>Assigned_To__c</fullName>
-        <deleteConstraint>SetNull</deleteConstraint>
-        <externalId>false</externalId>
-        <label>Assigned To</label>
-        <referenceTo>Contact</referenceTo>
-        <relationshipLabel>Cases</relationshipLabel>
-        <relationshipName>Cases</relationshipName>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Lookup</type>
-    </fields>
-    <fields>
         <fullName>BusinessHoursId</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
@@ -266,46 +80,8 @@
         <type>Lookup</type>
     </fields>
     <fields>
-        <fullName>CaseType__c</fullName>
-        <defaultValue>&quot;Web&quot;</defaultValue>
-        <externalId>false</externalId>
-        <label>CaseType</label>
-        <length>3</length>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
         <fullName>ClosedDate</fullName>
         <trackTrending>false</trackTrending>
-    </fields>
-    <fields>
-        <fullName>Closure_Days__c</fullName>
-        <externalId>false</externalId>
-        <formula>IF(ISPICKVAL(Status,&quot;Closed&quot;),(ClosedDate-CreatedDate),0)</formula>
-        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
-        <label>Closure Days</label>
-        <precision>18</precision>
-        <required>false</required>
-        <scale>0</scale>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Number</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
-        <fullName>Code_C_Required__c</fullName>
-        <defaultValue>false</defaultValue>
-        <description>captures the information if there is a code change required or not.</description>
-        <externalId>false</externalId>
-        <label>Code Change Required</label>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Checkbox</type>
     </fields>
     <fields>
         <fullName>Comments</fullName>
@@ -341,15 +117,16 @@
         <trackTrending>false</trackTrending>
     </fields>
     <fields>
-        <fullName>Final_Resolution__c</fullName>
+        <fullName>EngineeringReqNumber__c</fullName>
         <externalId>false</externalId>
-        <label>Final Resolution</label>
-        <length>32768</length>
+        <label>Engineering Req Number</label>
+        <length>12</length>
+        <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
-        <type>LongTextArea</type>
-        <visibleLines>3</visibleLines>
+        <type>Text</type>
+        <unique>false</unique>
     </fields>
     <fields>
         <fullName>IsClosedOnCreate</fullName>
@@ -362,58 +139,6 @@
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
-    </fields>
-    <fields>
-        <fullName>IsSelfServiceClosed</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-    </fields>
-    <fields>
-        <fullName>IsVisibleInSelfService</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-    </fields>
-    <fields>
-        <fullName>Login_Url__c</fullName>
-        <description>This captures the AR instance used by User.</description>
-        <externalId>false</externalId>
-        <label>Login Url</label>
-        <length>255</length>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
-        <fullName>Open_A_Assignment__c</fullName>
-        <externalId>false</externalId>
-        <formula>IF( ISPICKVAL(Assigned_Status__c, &quot;Yes&quot;) ,( IF(ISPICKVAL(Status, &quot;In Progress&quot;), TODAY() - DATEVALUE(Assigned_On__c), IF(ISPICKVAL(Status, &quot;Closed&quot;), (ClosedDate-Assigned_On__c),0) )),0 )</formula>
-        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
-        <label>Open After Assignment</label>
-        <precision>18</precision>
-        <required>false</required>
-        <scale>0</scale>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Number</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
-        <fullName>Open_Since__c</fullName>
-        <externalId>false</externalId>
-        <formula>IF(NOT(ISPICKVAL(Status, &quot;Closed&quot;)), TODAY() - DATEVALUE(CreatedDate) , ClosedDate-CreatedDate )</formula>
-        <label>Open Since</label>
-        <precision>18</precision>
-        <required>false</required>
-        <scale>0</scale>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Number</type>
-        <unique>false</unique>
     </fields>
     <fields>
         <fullName>Origin</fullName>
@@ -437,6 +162,31 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>PotentialLiability__c</fullName>
+        <externalId>false</externalId>
+        <label>Potential Liability</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>Priority</fullName>
         <trackFeedHistory>true</trackFeedHistory>
         <trackHistory>true</trackHistory>
@@ -444,146 +194,7 @@
         <type>Picklist</type>
     </fields>
     <fields>
-        <fullName>Reason</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>true</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Picklist</type>
-    </fields>
-    <fields>
-        <fullName>Remdine_Case_No__c</fullName>
-        <description>This captures the redmine case number created for the respective case.</description>
-        <externalId>false</externalId>
-        <label>Redmine Case No</label>
-        <length>24</length>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
-        <fullName>Solution_Text__c</fullName>
-        <description>captures the information of the interactions had with user and also if any steps provided to test by user</description>
-        <externalId>false</externalId>
-        <label>Solution Steps</label>
-        <length>131071</length>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>LongTextArea</type>
-        <visibleLines>3</visibleLines>
-    </fields>
-    <fields>
-        <fullName>SourceId</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Lookup</type>
-    </fields>
-    <fields>
-        <fullName>Status</fullName>
-        <trackFeedHistory>true</trackFeedHistory>
-        <trackHistory>true</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Picklist</type>
-    </fields>
-    <fields>
-        <fullName>Subject</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>true</trackHistory>
-        <trackTrending>false</trackTrending>
-    </fields>
-    <fields>
-        <fullName>SuppliedCompany</fullName>
-        <trackTrending>false</trackTrending>
-    </fields>
-    <fields>
-        <fullName>SuppliedEmail</fullName>
-        <trackTrending>false</trackTrending>
-    </fields>
-    <fields>
-        <fullName>SuppliedName</fullName>
-        <trackTrending>false</trackTrending>
-    </fields>
-    <fields>
-        <fullName>SuppliedPhone</fullName>
-        <trackTrending>false</trackTrending>
-    </fields>
-    <fields>
-        <fullName>Support_Engineer__c</fullName>
-        <deleteConstraint>SetNull</deleteConstraint>
-        <externalId>false</externalId>
-        <label>Support Engineer</label>
-        <referenceTo>Contact</referenceTo>
-        <relationshipLabel>Cases (Support Engineer)</relationshipLabel>
-        <relationshipName>contact1</relationshipName>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Lookup</type>
-    </fields>
-    <fields>
-        <fullName>Support_Shift_Type__c</fullName>
-        <externalId>false</externalId>
-        <formula>(CASE(VALUE(MID(TEXT(CreatedDate),12,2)),
-0, &quot;Night&quot;,
-1,&quot;Night&quot;,
-2,&quot;Day&quot;,
-3,&quot;Day&quot;,
-4,&quot;Day&quot;,
-5,&quot;Day&quot;,
-6,&quot;Day&quot;,
-7,&quot;Day&quot;,
-8,&quot;Day&quot;,
-9,&quot;Day&quot;,
-10,&quot;Day&quot;,
-11,&quot;Day&quot;,
-12,&quot;Day&quot;,
-13,&quot;Day&quot;,
-14,&quot;Day&quot;,
-15,&quot;Day&quot;,
-16,&quot;Day&quot;,
-17,&quot;Night&quot;,
-18,&quot;Night&quot;,
-19,&quot;Night&quot;,
-20,&quot;Night&quot;,
-21,&quot;Night&quot;,
-22,&quot;Night&quot;,
-23,&quot;Night&quot;,
-&quot;The formula did not calculate correctly. please inform the system admin.&quot;))</formula>
-        <label>Support Shift Type</label>
-        <required>false</required>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
-        <fullName>Type</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>true</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Picklist</type>
-    </fields>
-    <fields>
-        <fullName>lntcms__EngineeringReqNumber__c</fullName>
-        <deprecated>false</deprecated>
-        <externalId>false</externalId>
-        <label>Engineering Req Number</label>
-        <length>12</length>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
-        <fullName>lntcms__Product__c</fullName>
-        <deprecated>false</deprecated>
+        <fullName>Product__c</fullName>
         <externalId>false</externalId>
         <label>Product</label>
         <required>false</required>
@@ -642,420 +253,116 @@
             </valueSetDefinition>
         </valueSet>
     </fields>
+    <fields>
+        <fullName>Reason</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>SLAViolation__c</fullName>
+        <externalId>false</externalId>
+        <label>SLA Violation</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Status</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Subject</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>SuppliedCompany</fullName>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>SuppliedEmail</fullName>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>SuppliedName</fullName>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>SuppliedPhone</fullName>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>Type</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
     <listViews>
-        <fullName>Closed_Cases</fullName>
+        <fullName>AllClosedCases</fullName>
         <columns>CASES.CASE_NUMBER</columns>
         <columns>NAME</columns>
-        <columns>ACCOUNT.NAME</columns>
+        <columns>CASES.SUBJECT</columns>
         <columns>CASES.STATUS</columns>
         <columns>CASES.PRIORITY</columns>
         <columns>CASES.CREATED_DATE</columns>
-        <columns>CASES.CLOSED_DATE</columns>
-        <columns>Closure_Days__c</columns>
-        <columns>CASES.NAME</columns>
+        <columns>CORE.USERS.ALIAS</columns>
         <filterScope>Everything</filterScope>
         <filters>
-            <field>CASES.STATUS</field>
+            <field>CASES.CLOSED</field>
             <operation>equals</operation>
-            <value>Closed</value>
+            <value>1</value>
         </filters>
-        <label>Closed Cases</label>
-        <language>en_US</language>
+        <label>All Closed Cases</label>
     </listViews>
     <listViews>
-        <fullName>Deployment_Team_Case</fullName>
-        <columns>CASES.CASE_NUMBER</columns>
-        <columns>CASES.SUBJECT</columns>
-        <columns>CASES.PRIORITY</columns>
-        <columns>CASES.REASON</columns>
-        <columns>CASES.TYPE</columns>
+        <fullName>AllOpenCases</fullName>
         <filterScope>Everything</filterScope>
         <filters>
-            <field>CASES.REASON</field>
+            <field>CASES.CLOSED</field>
             <operation>equals</operation>
-            <value>Builds/Project Failures,Deployments,Sync Orgs</value>
+            <value>0</value>
         </filters>
-        <label>Deployment Team</label>
-        <language>en_US</language>
-        <sharedTo>
-            <allInternalUsers></allInternalUsers>
-        </sharedTo>
+        <label>All Open Cases</label>
     </listViews>
     <listViews>
-        <fullName>Open_Cases</fullName>
-        <columns>CASES.CASE_NUMBER</columns>
-        <columns>CASES.NAME</columns>
-        <columns>CASES.SUBJECT</columns>
-        <columns>Assigned_To__c</columns>
-        <columns>CASES.STATUS</columns>
-        <columns>Remdine_Case_No__c</columns>
-        <columns>Support_Engineer__c</columns>
-        <columns>CASES.PRIORITY</columns>
-        <columns>CASES.CREATED_DATE</columns>
-        <columns>Open_Since__c</columns>
-        <columns>Open_A_Assignment__c</columns>
-        <filterScope>Everything</filterScope>
-        <filters>
-            <field>CASES.STATUS</field>
-            <operation>notEqual</operation>
-            <value>Closed</value>
-        </filters>
-        <label>Open Cases</label>
-        <language>en_US</language>
+        <fullName>MyCases</fullName>
+        <filterScope>Mine</filterScope>
+        <label>My Cases</label>
     </listViews>
-    <recordTypeTrackFeedHistory>false</recordTypeTrackFeedHistory>
-    <recordTypeTrackHistory>true</recordTypeTrackHistory>
-    <recordTypes>
-        <fullName>Internal_Bug</fullName>
-        <active>true</active>
-        <businessProcess>Customer Support</businessProcess>
-        <label>Internal Bug</label>
-        <picklistValues>
-            <picklist>Assigned_Status__c</picklist>
-            <values>
-                <fullName>No</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Yes</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
-            <picklist>Origin</picklist>
-            <values>
-                <fullName>Email</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Phone</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Web</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
-            <picklist>Priority</picklist>
-            <values>
-                <fullName>High</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Low</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Medium</fullName>
-                <default>true</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
-            <picklist>Reason</picklist>
-            <values>
-                <fullName>Builds%2FProject Failures</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Data Loader</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Deployments</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>EZ - Commits</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>FAQ</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Functionality</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Login Issue</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Other</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Sync Orgs</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Test Automation Factory%28TAF%29</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Version Control</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
-            <picklist>Type</picklist>
-            <values>
-                <fullName>AutoRABIT Issue</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Bug in AR</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>FAQ</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Other</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Salesforce Issue</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-    </recordTypes>
-    <recordTypes>
-        <fullName>Problem</fullName>
-        <active>true</active>
-        <businessProcess>Customer Support</businessProcess>
-        <label>Problem</label>
-        <picklistValues>
-            <picklist>Assigned_Status__c</picklist>
-            <values>
-                <fullName>No</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Yes</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
-            <picklist>Origin</picklist>
-            <values>
-                <fullName>Email</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Phone</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Web</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
-            <picklist>Priority</picklist>
-            <values>
-                <fullName>High</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Low</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Medium</fullName>
-                <default>true</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
-            <picklist>Reason</picklist>
-            <values>
-                <fullName>Builds%2FProject Failures</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Data Loader</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Deployments</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>EZ - Commits</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>FAQ</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Functionality</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Login Issue</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Other</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Sync Orgs</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Test Automation Factory%28TAF%29</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Version Control</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
-            <picklist>Type</picklist>
-            <values>
-                <fullName>AutoRABIT Issue</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Bug in AR</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>FAQ</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Other</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Salesforce Issue</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-    </recordTypes>
-    <recordTypes>
-        <fullName>User_Story</fullName>
-        <active>true</active>
-        <businessProcess>Customer Support</businessProcess>
-        <label>User Story</label>
-        <picklistValues>
-            <picklist>Assigned_Status__c</picklist>
-            <values>
-                <fullName>No</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Yes</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
-            <picklist>Origin</picklist>
-            <values>
-                <fullName>Email</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Phone</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Web</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
-            <picklist>Priority</picklist>
-            <values>
-                <fullName>High</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Low</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Medium</fullName>
-                <default>true</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
-            <picklist>Reason</picklist>
-            <values>
-                <fullName>Builds%2FProject Failures</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Data Loader</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Deployments</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>EZ - Commits</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>FAQ</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Functionality</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Login Issue</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Other</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Sync Orgs</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Test Automation Factory%28TAF%29</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Version Control</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
-            <picklist>Type</picklist>
-            <values>
-                <fullName>AutoRABIT Issue</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Bug in AR</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>FAQ</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Other</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Salesforce Issue</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-    </recordTypes>
+    <listViews>
+        <fullName>MyOpenCases</fullName>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>CASES.CLOSED</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <label>My Open Cases</label>
+    </listViews>
     <searchLayouts>
         <customTabListAdditionalFields>CASES.CASE_NUMBER</customTabListAdditionalFields>
         <customTabListAdditionalFields>CASES.SUBJECT</customTabListAdditionalFields>
@@ -1077,17 +384,24 @@
         <searchResultsAdditionalFields>CASES.CREATED_DATE</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
     </searchLayouts>
-    <sharingModel>Private</sharingModel>
+    <sharingModel>ReadWriteTransfer</sharingModel>
     <webLinks>
-        <fullName>lntcms__Find_Duplicates</fullName>
+        <fullName>UpsellCrosssellOpportunity</fullName>
         <availability>online</availability>
-        <displayType>button</displayType>
+        <displayType>link</displayType>
         <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>true</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>true</hasToolbar>
         <height>600</height>
+        <isResizable>true</isResizable>
         <linkType>url</linkType>
-        <masterLabel>Find Duplicates</masterLabel>
-        <openType>noSidebar</openType>
+        <masterLabel>Up-sell / Cross-sell Opportunity</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
         <protected>false</protected>
-        <url>/apex/lntcms__DuplicateCases?id={!Case.Id}</url>
+        <showsLocation>true</showsLocation>
+        <showsStatus>true</showsStatus>
+        <url>https://na1.salesforce.com/opp/oppedit.jsp?accid={!Account_ID}&amp;opp3=Up-sell+/+Cross-sell&amp;opp5=Existing+Customer&amp;opp6=Customer+Support</url>
     </webLinks>
 </CustomObject>

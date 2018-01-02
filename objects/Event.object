@@ -57,9 +57,6 @@
         <fullName>ActivityDateTime</fullName>
     </fields>
     <fields>
-        <fullName>ClientGuid</fullName>
-    </fields>
-    <fields>
         <fullName>Description</fullName>
     </fields>
     <fields>
@@ -78,19 +75,10 @@
         <fullName>IsAllDayEvent</fullName>
     </fields>
     <fields>
-        <fullName>IsException</fullName>
-    </fields>
-    <fields>
         <fullName>IsPrivate</fullName>
     </fields>
     <fields>
-        <fullName>IsVisibleInSelfService</fullName>
-    </fields>
-    <fields>
         <fullName>Location</fullName>
-    </fields>
-    <fields>
-        <fullName>OriginalInstanceDateTime</fullName>
     </fields>
     <fields>
         <fullName>OwnerId</fullName>

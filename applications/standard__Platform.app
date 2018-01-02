@@ -2,11 +2,9 @@
 <CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
     <defaultLandingTab>standard-home</defaultLandingTab>
     <tab>standard-Chatter</tab>
-    <tab>standard-File</tab>
     <tab>standard-Account</tab>
     <tab>standard-Contact</tab>
     <tab>standard-report</tab>
     <tab>standard-Dashboard</tab>
-    <tab>Customer_Satisfaction_Survey__c</tab>
-    <tab>lOCALTEST</tab>
+    <tab>Waypoint__c</tab>
 </CustomApplication>

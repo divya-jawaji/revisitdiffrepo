@@ -10,18 +10,18 @@
     <tab>standard-Lead</tab>
     <tab>standard-Task</tab>
     <tab>standard-File</tab>
-    <tab>standard-ContentNote</tab>
     <tab>standard-Account</tab>
     <tab>standard-Contact</tab>
     <tab>standard-Campaign</tab>
     <tab>standard-Dashboard</tab>
     <tab>standard-report</tab>
     <tab>standard-Feed</tab>
+    <tab>Field_Sales_App</tab>
     <tab>standard-CollaborationGroup</tab>
     <tab>standard-Event</tab>
     <tab>standard-OtherUserProfile</tab>
     <tab>standard-Case</tab>
-    <tab>standard-News</tab>
-    <tab>standard-Quote</tab>
+    <tab>standard-Forecasting3</tab>
+    <tab>Waypoint__c</tab>
     <uiType>Lightning</uiType>
 </CustomApplication>

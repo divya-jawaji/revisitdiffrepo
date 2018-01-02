@@ -122,11 +122,6 @@
         <label>Not For Profit</label>
     </standardValue>
     <standardValue>
-        <fullName>Other</fullName>
-        <default>false</default>
-        <label>Other</label>
-    </standardValue>
-    <standardValue>
         <fullName>Recreation</fullName>
         <default>false</default>
         <label>Recreation</label>
@@ -162,8 +157,8 @@
         <label>Utilities</label>
     </standardValue>
     <standardValue>
-        <fullName>pavan@techsophy.com</fullName>
+        <fullName>Other</fullName>
         <default>false</default>
-        <label>pavan@techsophy.com</label>
+        <label>Other</label>
     </standardValue>
 </StandardValueSet>

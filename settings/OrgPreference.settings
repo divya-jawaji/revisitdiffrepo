@@ -26,11 +26,11 @@
     </preferences>
     <preferences>
         <settingName>XssProtection</settingName>
-        <settingValue>false</settingValue>
+        <settingValue>true</settingValue>
     </preferences>
     <preferences>
         <settingName>ContentSniffingProtection</settingName>
-        <settingValue>false</settingValue>
+        <settingValue>true</settingValue>
     </preferences>
     <preferences>
         <settingName>UpgradeInsecureRequestsPref</settingName>
@@ -54,7 +54,7 @@
     </preferences>
     <preferences>
         <settingName>Translation</settingName>
-        <settingValue>true</settingValue>
+        <settingValue>false</settingValue>
     </preferences>
     <preferences>
         <settingName>S1DesktopEnabled</settingName>
@@ -70,7 +70,7 @@
     </preferences>
     <preferences>
         <settingName>NotesReservedPref01</settingName>
-        <settingValue>true</settingValue>
+        <settingValue>false</settingValue>
     </preferences>
     <preferences>
         <settingName>DisableParallelApexTesting</settingName>
@@ -113,6 +113,10 @@
         <settingValue>false</settingValue>
     </preferences>
     <preferences>
+        <settingName>TerritoryManagement2Enable</settingName>
+        <settingValue>true</settingValue>
+    </preferences>
+    <preferences>
         <settingName>S1OfflinePref</settingName>
         <settingValue>true</settingValue>
     </preferences>
@@ -122,11 +126,11 @@
     </preferences>
     <preferences>
         <settingName>OfflineDraftsEnabled</settingName>
-        <settingValue>false</settingValue>
+        <settingValue>true</settingValue>
     </preferences>
     <preferences>
         <settingName>EnhancedEmailEnabled</settingName>
-        <settingValue>false</settingValue>
+        <settingValue>true</settingValue>
     </preferences>
     <preferences>
         <settingName>SelfSetPasswordInApi</settingName>
