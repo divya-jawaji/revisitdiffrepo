@@ -1159,7 +1159,6 @@
         <name>CustomSite</name>
     </types>
     <types>
-        <members>AR_Test_App</members>
         <members>Customer_Satisfaction_Survey__c</members>
         <members>Expense__c</members>
         <members>Field_Sales_App</members>
@@ -1167,7 +1166,6 @@
         <members>Questionnaire_Implementation__c</members>
         <members>Quickstart</members>
         <members>SP</members>
-        <members>Samplr_Test</members>
         <members>Scope_Poc_Information__c</members>
         <members>TripForce</members>
         <members>Waypoint__c</members>
@@ -1176,7 +1174,6 @@
     </types>
     <types>
         <members>AutoRABIT_CRM_Dashboards</members>
-        <members>AutoRABIT_CRM_Dashboards/AutoRABIT_Dashboard</members>
         <members>AutoRABIT_CRM_Dashboards/Lead_Activity_Reports</members>
         <members>AutoRABIT_CRM_Dashboards/Newsletter_Campaign_Dashboard</members>
         <members>CompanyDashboards</members>
