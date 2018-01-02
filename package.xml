@@ -1160,7 +1160,6 @@
     </types>
     <types>
         <members>Field_Sales_App</members>
-        <members>Questionnaire_Implementation__c</members>
         <members>Quickstart</members>
         <members>SP</members>
         <members>Scope_Poc_Information__c</members>
@@ -1289,10 +1288,6 @@
         <members>Map_opportunity_and_Lead_Record_Types</members>
         <members>flow2</members>
         <name>FlowDefinition</name>
-    </types>
-    <types>
-        <members>Marketing_group</members>
-        <name>Group</name>
     </types>
     <types>
         <members>AutoRABIT Dashboard</members>
