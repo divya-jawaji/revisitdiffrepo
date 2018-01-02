@@ -1160,7 +1160,6 @@
     </types>
     <types>
         <members>Field_Sales_App</members>
-        <members>Professional__c</members>
         <members>Questionnaire_Implementation__c</members>
         <members>Quickstart</members>
         <members>SP</members>
@@ -1292,7 +1291,6 @@
         <name>FlowDefinition</name>
     </types>
     <types>
-        <members>Consulting_Group</members>
         <members>Marketing_group</members>
         <name>Group</name>
     </types>
