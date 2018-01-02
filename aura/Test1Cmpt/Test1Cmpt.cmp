@@ -1,0 +1,16 @@
+<aura:component controller="JSONTestClass">
+    
+    <!-- <aura:registerEvent name="updateExpense" type="c:testLightningEvent"/> -->
+    
+    <aura:attribute name="jsonSampler" type="JSONTestObj__c" 
+                    default="{'sObjectType' : 'JSONTestObj__c',
+                             'firstName__c' : 'Sampath',
+                             'lastName__c' : 'Kumar',
+                             'age__c' : '10' }" />
+ 
+    
+   <h1>Test1</h1>
+    
+    <ui:button label="{!v.jsonSampler.firstName__c}" press="{!c.buttonClick}" />
+    
+</aura:component>

@@ -1,0 +1,6 @@
+.THIS {
+}
+
+.THIS.header-div{
+    background-color : token(myBackgroundColor);
+}

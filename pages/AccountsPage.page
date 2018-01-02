@@ -1,0 +1,20 @@
+<apex:page controller="NewAndExistingController" tabstyle="Account" >
+<apex:form >
+<apex:pageBlock mode="edit">
+<apex:pageMessages />
+<apex:pageBlockSection columns="1" >
+<apex:inputField value="{!Account.name}"/>
+<apex:inputField value="{!Account.phone}"/>
+<apex:inputField value="{!account.Primary_Email__c}"/>
+<apex:inputField value="{!Account.industry}"/>
+<apex:inputField value="{!account.AccountNumber}"/>
+<apex:inputField value="{!account.Type}"/>
+<apex:inputField value="{!account.Business_Unit__c}"/>
+<apex:inputField value="{!account.NumberOfEmployees}"/>
+</apex:pageBlockSection>
+<apex:pageBlockButtons location="bottom">
+<apex:commandButton value="Save" action="{!save}"/>
+</apex:pageBlockButtons>
+</apex:pageBlock>
+</apex:form>
+</apex:page>

@@ -1,0 +1,26 @@
+<aura:component controller="DeploymentActivity" >
+	
+    <aura:attribute name="completeLoginData" type="completeLogin__c" 
+                    default="{ 'sobjectType': 'completeLogin__c',
+                             'AgentID__c': '693D1111386C2EC823216634A8555C93',
+                             'FirstLastName__c': '',
+                             'LoginScreenURL__c': 'na3.autorabit.com',
+                             'OrgName__c': '',
+                             'UserEmail__c': ''}"/>
+    
+    <aura:handler name="init" action="{!c.doInit}" value="{!this}"/>
+    
+    <div class="header-div" width="100%" height="500px">
+    </div>
+    
+    <h1>SecondActivity</h1>
+    <!-- PAGE HEADER -->
+    <div class="slds-page-header" role="banner">
+        <div class="slds-grid">
+            <div class="slds-col">
+                <h1 class="slds-text-heading--small" align="center">SecondasasActivity</h1>
+                <ui:button label="{!v.completeLoginData.FirstLastName__c}" press="{!c.sample}" />
+            </div>
+        </div>
+    </div>
+</aura:component>

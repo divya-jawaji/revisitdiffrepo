@@ -1,0 +1,14 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes" access="global" >
+    <ltng:require scripts="/resource/jquery, /resource/d3js" afterScriptsLoaded="{!c.afterJsLoaded}" />
+    
+    
+    
+    <h1>hello second activity</h1>
+    
+    Duration: 0<input type="range" id="duration" min="0" max="5000" value="400"/>5000 
+    
+    <ui:button label="Randomize"
+               aura:id="samButton"
+               class="slds-button slds-button--brand"
+               press="{!c.randomize}"/>
+</aura:component>

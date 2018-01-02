@@ -1,0 +1,43 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes" access="global" >
+    
+    <ltng:require styles="/resource/SLDS/assets/styles/salesforce-lightning-design-system-ltng.css, /resource/customd3"
+                  scripts="/resource/jquery, /resource/d3js"
+                  afterScriptsLoaded="{!c.afterLoadingScripts}"/>
+    
+    <div class="autorabit-com">
+        
+        <!-- This component is the real "app"   -->
+        <h1>asasas</h1>
+        
+        <ui:inputText label="Sam" />
+        
+        <!-- <div style="padding: 50px 30px 50px 80px;">
+            <span class="slds-icon__container slds-icon-standard-account with-3d-shadow with-transitions" >
+                
+                <c:SvgTest id="test" class="slds-icon" xlinkHref="/resource/SLDS/assets/icons/standard-sprite/svg/symbols.svg#account" />
+                
+            </span>
+        </div>
+        
+        <figure></figure>
+        
+        <span>Chart Data:</span>
+        <span id="dataLogger"></span>
+        
+        
+        <span>Tooltip Data:</span>
+        <span id="tooltipLogger"></span> -->
+        
+        <ui:button label="sasa" class="slds-button slds-button--brand" press="{!c.buttonPress}"/>
+        
+        <div class="chart" ></div>
+        
+        <!-- <c:SvgTest class="svgChart" /> -->
+        <c:SvgTest id="visualisation" width="1000" height="500" />
+        
+        <h1 class="test" style="padding: 50px 30px 50px 80px;">Sampath</h1>
+        
+    </div>
+    
+    
+</aura:component>

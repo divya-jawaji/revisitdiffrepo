@@ -1,0 +1,8 @@
+<aura:component >
+    <!-- <aura:attribute name="sampath" type="String"/>
+    <h1>{! 'W E L C O M E ' + v.sampath}</h1>  
+    <p><ui:outputText value="{!'Hello! Lightning ' + v.sampath}"/></p> -->
+    
+    
+    
+</aura:component>

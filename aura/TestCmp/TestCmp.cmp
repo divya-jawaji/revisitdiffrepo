@@ -1,0 +1,9 @@
+<aura:component >
+    <!-- <aura:attribute name="SampleString" type="String" /> -->
+    <aura:handler name="updateExpense" event="c:testLightningEvent"
+   action="{!c.handleUpdateExpense}"/>
+    <c:Test1Cmpt />
+    <c:Test2 />
+    
+    
+</aura:component>

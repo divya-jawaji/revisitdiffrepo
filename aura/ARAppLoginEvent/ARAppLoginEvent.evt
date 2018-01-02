@@ -1,0 +1,4 @@
+<aura:event type="APPLICATION" >
+    <aura:attribute name="isLoginsuccessful" type="String"/>
+    <aura:attribute name="completeLoginDataObj" type="completeLogin__c" />
+</aura:event>
