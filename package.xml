@@ -848,18 +848,11 @@
     </types>
     <types>
         <members>Field_Sales_App</members>
-        <members>Professional__c</members>
-        <members>Questionnaire_Implementation__c</members>
         <members>Quickstart</members>
-        <members>SP</members>
-        <members>Scope_Poc_Information__c</members>
         <members>Waypoint__c</members>
         <name>CustomTab</name>
     </types>
     <types>
-        <members>AutoRABIT_CRM_Dashboards</members>
-        <members>AutoRABIT_CRM_Dashboards/Lead_Activity_Reports</members>
-        <members>AutoRABIT_CRM_Dashboards/Newsletter_Campaign_Dashboard</members>
         <members>CompanyDashboards</members>
         <members>CompanyDashboards/AdoptionDashboard</members>
         <members>CompanyDashboards/CompanyPerformanceDashboard</members>
@@ -972,11 +965,6 @@
         <members>Map_opportunity_and_Lead_Record_Types</members>
         <members>flow2</members>
         <name>FlowDefinition</name>
-    </types>
-    <types>
-        <members>Consulting_Group</members>
-        <members>Marketing_group</members>
-        <name>Group</name>
     </types>
     <types>
         <members>AutoRABIT Dashboard</members>
