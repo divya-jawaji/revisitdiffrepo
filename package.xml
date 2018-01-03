@@ -847,8 +847,6 @@
         <name>CustomSite</name>
     </types>
     <types>
-        <members>Customer_Satisfaction_Survey__c</members>
-        <members>Expense__c</members>
         <members>Field_Sales_App</members>
         <members>Professional__c</members>
         <members>Questionnaire_Implementation__c</members>
@@ -954,6 +952,268 @@
         <members>Field_Sales_App</members>
         <members>LightningSalesConsole_UtilityBar</members>
         <name>FlexiPage</name>
+    </types>
+    <types>
+        <members>Case_Assignment_Rule-1</members>
+        <members>Contact_address_change-1</members>
+        <members>Lead_Opportunity_Record_Types-1</members>
+        <members>Map_Competitor_Field_on_Account-1</members>
+        <members>Map_Competitor_Field_on_Account-2</members>
+        <members>Map_Competitor_Field_on_Account-3</members>
+        <members>Map_opportunity_and_Lead_Record_Types-1</members>
+        <members>flow2-1</members>
+        <name>Flow</name>
+    </types>
+    <types>
+        <members>Case_Assignment_Rule</members>
+        <members>Contact_address_change</members>
+        <members>Lead_Opportunity_Record_Types</members>
+        <members>Map_Competitor_Field_on_Account</members>
+        <members>Map_opportunity_and_Lead_Record_Types</members>
+        <members>flow2</members>
+        <name>FlowDefinition</name>
+    </types>
+    <types>
+        <members>Consulting_Group</members>
+        <members>Marketing_group</members>
+        <name>Group</name>
+    </types>
+    <types>
+        <members>AutoRABIT Dashboard</members>
+        <members>AutoRABIT Logo</members>
+        <name>HomePageComponent</name>
+    </types>
+    <types>
+        <members>DE Default</members>
+        <members>Dashboard Home Page Default</members>
+        <members>Techsophy Layout</members>
+        <name>HomePageLayout</name>
+    </types>
+    <types>
+        <members>MC4SF</members>
+        <members>SFGA</members>
+        <members>lntcms</members>
+        <members>sf_chttr_apps</members>
+        <members>sf_com_apps</members>
+        <name>InstalledPackage</name>
+    </types>
+    <types>
+        <members>Account-Account %28Marketing%29 Layout</members>
+        <members>Account-Account %28Sales%29 Layout</members>
+        <members>Account-Account %28Support%29 Layout</members>
+        <members>Account-Account Layout</members>
+        <members>Asset-Asset Layout</members>
+        <members>Base64__c-Base64 Layout</members>
+        <members>Campaign-Campaign Layout</members>
+        <members>CampaignMember-Campaign Member Page Layout</members>
+        <members>Case-Case %28Marketing%29 Layout</members>
+        <members>Case-Case %28Sales%29 Layout</members>
+        <members>Case-Case %28Support%29 Layout</members>
+        <members>Case-Case Layout</members>
+        <members>CaseClose-Close Case Layout</members>
+        <members>CollaborationGroup-Group Layout</members>
+        <members>Contact-Contact %28Marketing%29 Layout</members>
+        <members>Contact-Contact %28Sales%29 Layout</members>
+        <members>Contact-Contact %28Support%29 Layout</members>
+        <members>Contact-Contact Layout</members>
+        <members>ContentVersion-Content Version Layout</members>
+        <members>ContentVersion-General</members>
+        <members>Contract-Contract Layout</members>
+        <members>Customer_Satisfaction_Survey__c-Customer Satisfaction Survey Layout</members>
+        <members>DandBCompany-D%26B Company Layout</members>
+        <members>DuplicateRecordSet-Duplicate Record Set Layout</members>
+        <members>EmailMessage-Email Message Layout</members>
+        <members>EmailMessage-Email Message Layout - Email-to-Case</members>
+        <members>Event-Event Layout</members>
+        <members>Expense__c-Expense Layout</members>
+        <members>FAQ__kav-FAQ Layout</members>
+        <members>FeedItem-Feed Item Layout</members>
+        <members>Global-Global Layout</members>
+        <members>Idea-Idea Layout</members>
+        <members>IncomingEmail__c-IncomingEmail Layout</members>
+        <members>JSONTestObj__c-JSONTestObj Layout</members>
+        <members>Lead-AutoRABIT Lead Layout</members>
+        <members>Lead-Lead %28Marketing%29 Layout</members>
+        <members>Lead-Lead %28Sales%29 Layout</members>
+        <members>Lead-Lead %28Support%29 Layout</members>
+        <members>Lead-Lead Layout</members>
+        <members>LoginData__c-LoginData Layout</members>
+        <members>Macro-Macro Layout</members>
+        <members>Opportunity-BPM Opportunity  Layout</members>
+        <members>Opportunity-Opportunity %28Marketing%29 Layout</members>
+        <members>Opportunity-Opportunity %28Sales%29 Layout</members>
+        <members>Opportunity-Opportunity %28Support%29 Layout</members>
+        <members>Opportunity-Opportunity Layout</members>
+        <members>OpportunityLineItem-Opportunity Product Layout</members>
+        <members>Order-Order Layout</members>
+        <members>OrderDetails__x-OrderDetails Layout</members>
+        <members>OrderItem-Order Product Layout</members>
+        <members>Order__c-Order Layout</members>
+        <members>Orders__x-Orders Layout</members>
+        <members>Pricebook2-Price Book Layout</members>
+        <members>PricebookEntry-Price Book Entry Layout</members>
+        <members>Pro1__c-Pro1 Layout</members>
+        <members>ProTest__c-ProTest Layout</members>
+        <members>Product2-Product Layout</members>
+        <members>Professional__c-ProfessionalHours Layout</members>
+        <members>Questionnaire_Implementation__c-Lead Questionnaire Layout</members>
+        <members>Questionnaire_Implementation__c-Questionnaire Implementation Layout</members>
+        <members>Quote-Quote Layout</members>
+        <members>QuoteLineItem-Quote Line Item Layout</members>
+        <members>Scope_Poc_Information__c-Scope - Poc Information Layout</members>
+        <members>Scorecard-Scorecard Layout</members>
+        <members>ScorecardMetric-Scorecard Metric Layout</members>
+        <members>Solution-Solution Layout</members>
+        <members>Task-Task Layout</members>
+        <members>Test10__c-Test10 Layout</members>
+        <members>Test154__c-Test154 Layout</members>
+        <members>Test15__c-Test15 Layout</members>
+        <members>Test1__c-Test1 Layout</members>
+        <members>Test20__c-Test20 Layout</members>
+        <members>Test21__c-Test21 Layout</members>
+        <members>Test22__c-Test22 Layout</members>
+        <members>Test23__c-Test23 Layout</members>
+        <members>Test24__c-Test24 Layout</members>
+        <members>Test25__c-Test25 Layout</members>
+        <members>Test26__c-Test26 Layout</members>
+        <members>Test27__c-Test27 Layout</members>
+        <members>Test2__c-Test2 Layout</members>
+        <members>Test30__c-Test30 Layout</members>
+        <members>Test31__c-Test31 Layout</members>
+        <members>Test32__c-Test32 Layout</members>
+        <members>Test33__c-Test33 Layout</members>
+        <members>Test34__c-Test34 Layout</members>
+        <members>Test3__c-Test3 Layout</members>
+        <members>Test40__c-Test40 Layout</members>
+        <members>Test41__c-Test41 Layout</members>
+        <members>Test42__c-Test42 Layout</members>
+        <members>Test45__c-Test45 Layout</members>
+        <members>Test47__c-Test47 Layout</members>
+        <members>Test48__c-Test48 Layout</members>
+        <members>Test49__c-Test49 Layout</members>
+        <members>Test50__c-Test50 Layout</members>
+        <members>Test51__c-Test51 Layout</members>
+        <members>Test53__c-Test53 Layout</members>
+        <members>Test54__c-Test54 Layout</members>
+        <members>Test5__c-Test5 Layout</members>
+        <members>Test66__c-Test66 Layout</members>
+        <members>Test67__c-Test67 Layout</members>
+        <members>Test6__c-Test6 Layout</members>
+        <members>Test75__c-Test75 Layout</members>
+        <members>Test76__c-Test76 Layout</members>
+        <members>Test80__c-Test80 Layout</members>
+        <members>Test90__c-Test90 Layout</members>
+        <members>Test91__c-Test91 Layout</members>
+        <members>Test95__c-Test95 Layout</members>
+        <members>Test96__c-Test96 Layout</members>
+        <members>Test97__c-Test97 Layout</members>
+        <members>Test__c-Test Layout</members>
+        <members>User-User Layout</members>
+        <members>UserAlt-User Profile Layout</members>
+        <members>UserProvAccount-User Provisioning Account Layout</members>
+        <members>UserProvisioningLog-User Provisioning Log Layout</members>
+        <members>UserProvisioningRequest-User Provisioning Request Layout</members>
+        <members>Waypoint__c-Waypoint Layout</members>
+        <members>WorkAccess-Access Layout</members>
+        <members>WorkBadge-Badge Layout</members>
+        <members>WorkBadge-Badge Received Layout 192</members>
+        <members>WorkBadgeDefinition-Badge Definition Layout</members>
+        <members>WorkBadgeDefinition-Badge Definition Layout 2%2E0</members>
+        <members>WorkBadgeDefinition-Badge Layout 192</members>
+        <members>WorkThanks-Thanks Layout</members>
+        <members>completeLogin__c-CompleteLoginData Layout</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>LeadConvertSettings</members>
+        <name>LeadConvertSettings</name>
+    </types>
+    <types>
+        <members>AutoRABIT_3_9_GA_Release_Letterhead</members>
+        <members>Blank_Personal_Email_Template</members>
+        <members>Mass_email_for_Campaigning</members>
+        <members>New_Logo_AutorRABIT</members>
+        <name>Letterhead</name>
+    </types>
+    <types>
+        <members>Account.AllAccounts</members>
+        <members>Account.MyAccounts</members>
+        <members>Account.NewLastWeek</members>
+        <members>Account.NewThisWeek</members>
+        <members>Account.PlatinumandGoldSLACustomers</members>
+        <members>Activity.AllActivities</members>
+        <members>Activity.MyActivities</members>
+        <members>Activity.TodaysTasks</members>
+        <members>Activity.UpcomingEvents</members>
+        <members>Asset.AllAssets</members>
+        <members>Campaign.AllActiveCampaigns</members>
+        <members>Campaign.MyActiveCampaigns</members>
+        <members>Case.AllClosedCases</members>
+        <members>Case.AllOpenCases</members>
+        <members>Case.MyCases</members>
+        <members>Case.MyOpenCases</members>
+        <members>Contact.AllContacts</members>
+        <members>Contact.BirthdaysThisMonth</members>
+        <members>Contact.MyContacts</members>
+        <members>Contact.NewLastWeek</members>
+        <members>Contact.NewThisWeek</members>
+        <members>Contract.AllActivatedContracts</members>
+        <members>Contract.AllContracts</members>
+        <members>Contract.AllDraftContracts</members>
+        <members>Contract.AllInApprovalContracts</members>
+        <members>Contract.MyActivatedContracts</members>
+        <members>Contract.MyDraftContracts</members>
+        <members>Contract.MyInApprovalContracts</members>
+        <members>Customer_Satisfaction_Survey__c.All</members>
+        <members>Expense__c.All</members>
+        <members>Idea.Ideas_Last_7_Days</members>
+        <members>Lead.AllOpenLeads</members>
+        <members>Lead.MyUnreadLeads</members>
+        <members>Lead.TodaysLeads</members>
+        <members>Lead.ViewCustom1</members>
+        <members>Lead.ViewCustom2</members>
+        <members>Macro.Testing_Macro</members>
+        <members>Opportunity.AllOpportunities</members>
+        <members>Opportunity.ClosingNextMonth</members>
+        <members>Opportunity.ClosingThisMonth</members>
+        <members>Opportunity.Default_Opportunity_Pipeline</members>
+        <members>Opportunity.MyOpportunities</members>
+        <members>Opportunity.NewLastWeek</members>
+        <members>Opportunity.NewThisWeek</members>
+        <members>Opportunity.Private</members>
+        <members>Opportunity.Won</members>
+        <members>Order.AllActivatedOrders</members>
+        <members>Order.AllDraftOrders</members>
+        <members>Order.AllOrders</members>
+        <members>Order__c.All</members>
+        <members>Product2.AllProducts</members>
+        <members>Professional__c.All</members>
+        <members>Questionnaire_Implementation__c.All</members>
+        <members>Quote.mine</members>
+        <members>Scope_Poc_Information__c.All</members>
+        <members>SocialPost.AllSocialPosts</members>
+        <members>Solution.AllReviewedSolutions</members>
+        <members>Solution.AllUnreviewedSolutions</members>
+        <members>User.ActiveUsers</members>
+        <members>User.AdminUsers</members>
+        <members>User.AllUsers</members>
+        <members>Waypoint__c.All</members>
+        <name>ListView</name>
+    </types>
+    <types>
+        <members>LeelaMarket_Developer</members>
+        <members>Sample_Developer</members>
+        <members>Work_com_Admin_User</members>
+        <members>Work_com_Standard_User</members>
+        <members>test</members>
+        <members>test2</members>
+        <members>test4</members>
+        <members>testnaPermissionsets</members>
+        <name>PermissionSet</name>
+    </types>
+    <types>
+        <members>Customer Portal</members>
+        <name>Portal</name>
     </types>
     <types>
         <members>Admin</members>
