@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>AR 3.9.2 release</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>AutoRABIT_3_9_GA_Release_Letterhead</letterhead>
+    <name>AutoRABIT 3.9.2 Release</name>
+    <style>freeForm</style>
+    <subject>AutoRABIT 3.9.2 GA Release</subject>
+    <textOnly>In the 3.9.2. release, AutoRABIT delivers powerful new continuous integration capabilities, more ways to efficiently deploy Salesforce projects, and even greater control over your metadata.
+
+How to Use the Release Notes
+The release notes offer brief, high-level descriptions new AutoRABIT features and enhancements to existing features.
+
+Push Salesforce Sandbox Metadata into Version Control System
+
+• Salesforce’s governor limits (size 400 MB or 10,000 files) make it impossible to retrieve and commit to version control systems Orgs that exceed governor limits and as such difficult to retrieve metadata at a single request. Overcome the default limit by using AutoRABIT’s version control management feature. This new feature, allows you to retrieve and commit large orgs to a version control system with a single-click.
+
+Managing Your Version Control Credentials is Now Made Simple
+
+• Configure version control credentials in your user profile (My Profile) view thereby eliminating the need to re-enter them at multiple places in AutoRABIT.
+
+• Enter the version control credentials in your user profile console only once for a single branch under a repository.  As you continue creating multiple branches, AutoRABIT auto-populates the credentials for all subsequent branches under the user profile.
+
+EZ-Commits
+
+• As an Admin, you can now verify and commit changes made by all users into a version control system with a few clicks in EZ-Commits.
+
+• With EZ-Commits, there is an option to retrieve any specific metadata types that a user wants to commit by clicking the “Additional Metadata�? button.
+
+• Now you can compare the metadata differences between your Salesforce Org and your version control system before committing the changes by clicking “Compare and Commit�?. This allows a user to see what changes are being committed to the version control system.
+
+Projects (CI Jobs)
+
+• An option to exclude metadata types that you don’t want to bundle as a part of your CI build. This would greatly reduce your build time and increase your deployment success rate.
+
+• AutoRABIT now offers an option to validate your deployments without actually having to deploy your changes into your Orgs. To do this, check the “Validate Only�? check-box.
+
+• Have better deployment visibility and enhanced CI jobs with code coverage reports option. You can now configure your apex tests as a part of your CI job.
+
+• During profile deployments, you can either retain or remove login IP ranges and user permissions from your source Org by clicking “Profile Settings�?.
+Selective Deployment
+
+• You can directly deploy EZ-Commit labels into Salesforce.
+
+• Re-use your un-deployed labels. You can now just validate the deployment and deploy the changes later, whenever required.
+
+• Performance improvement in the Org comparison
+
+• With parallel deployments, you have no more queues for your deployments.
+
+• Enhanced profile and permission sets deployments.
+
+Details about the new features can be found in the “Help�? section of AutoRABIT.
+Please write to support@autorabit.com for a detailed discussion on the released features.
+
+Copyright © 2016 AutoRABIT</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

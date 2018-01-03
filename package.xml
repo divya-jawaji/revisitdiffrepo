@@ -692,7 +692,73 @@
         <name>Profile</name>
     </types>
     <types>
-        <members>w3</members>
+        <members>AutoRABIT_Sales_profilePasswordPolicy1432114770324</members>
+        <members>Customer_Portal_Profile_profilePasswordPolicy1457739619571</members>
+        <members>PT1_profilePasswordPolicy1432542562448</members>
+        <members>Support_profilePasswordPolicy1465591215833</members>
+        <members>Support_profilePasswordPolicy1465591330187</members>
+        <members>testnewprofile_profilePasswordPolicy1459344674479</members>
+        <name>ProfilePasswordPolicy</name>
+    </types>
+    <types>
+        <members>AutoRABIT_Sales_profileSessionSetting1432114769988</members>
+        <members>Customer_Portal_Profile_profileSessionSetting1457739619523</members>
+        <members>PT1_profileSessionSetting1432542562059</members>
+        <members>Support_profileSessionSetting1465591647002</members>
+        <name>ProfileSessionSetting</name>
+    </types>
+    <types>
+        <members>Deployment_Team</members>
+        <members>Testing</members>
+        <members>test</members>
+        <name>Queue</name>
+    </types>
+    <types>
+        <members>Case.NewChildCase</members>
+        <members>CollaborationGroup.NewGroupMember</members>
+        <members>CollaborationGroup.NewGroupRecord</members>
+        <members>FeedItem.NewTaskFromFeedItem</members>
+        <members>LogACall</members>
+        <members>NewAccount</members>
+        <members>NewCase</members>
+        <members>NewContact</members>
+        <members>NewEvent</members>
+        <members>NewGroup</members>
+        <members>NewLead</members>
+        <members>NewNote</members>
+        <members>NewOpportunity</members>
+        <members>NewTask</members>
+        <members>SendEmail</members>
+        <members>Task.Defer</members>
+        <members>Task.Defer_0</members>
+        <members>Task.EditDescription</members>
+        <members>Task.EditDescription_0</members>
+        <members>Task.UpdatePriority</members>
+        <members>Task.UpdatePriority_0</members>
+        <members>Task.UpdateStatus</members>
+        <members>Task.UpdateStatus_0</members>
+        <members>Waypoint</members>
+        <name>QuickAction</name>
+    </types>
+    <types>
+        <members>Idea.InternalIdeasIdeaRecordType</members>
+        <members>Questionnaire_Implementation__c.Lead_Questionnaire</members>
+        <members>Questionnaire_Implementation__c.Opportunity_Questionnaire</members>
+        <name>RecordType</name>
+    </types>
+    <types>
+        <members>ApexDevNet</members>
+        <members>SampathLocal</members>
+        <members>Test</members>
+        <members>d3js</members>
+        <members>loginAutorabit</members>
+        <members>na11Autorabit</members>
+        <members>na1Autorabit</members>
+        <members>na3Autorabit</members>
+        <members>na9Autorabit</members>
+        <members>sampleTest</members>
+        <members>sampler</members>
+        <members>w3Schools</members>
         <name>RemoteSiteSetting</name>
     </types>
 </Package>
