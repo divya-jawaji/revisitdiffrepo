@@ -705,19 +705,15 @@
         <members>OrderItem.ServiceDate</members>
         <members>OrderItem.TotalPrice</members>
         <members>OrderItem.UnitPrice</members>
-        <members>Order__c.Account__c</members>
         <members>Order__c.Product__c</members>
         <members>Order__c.Quantity__c</members>
         <members>Order__c.Quote__c</members>
         <members>Order__c.Status__c</members>
-        <members>Order__c.TOMID__c</members>
         <members>Orders__x.customerID__c</members>
         <members>Orders__x.orderDate__c</members>
         <members>Orders__x.orderID__c</members>
         <members>Orders__x.shippedDate__c</members>
-        <members>PartnerRole.ReverseRole</members>
         <members>Pricebook2.Description</members>
-        <members>Pricebook2.IsActive</members>
         <members>Pricebook2.IsStandard</members>
         <members>Pricebook2.Name</members>
         <members>PricebookEntry.IsActive</members>
