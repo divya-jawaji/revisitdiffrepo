@@ -572,6 +572,7 @@
         <members>Expense__c.Client__c</members>
         <members>Expense__c.Date__c</members>
         <members>Expense__c.Reimbursed__c</members>
+        <members>Goal.OrigGoalId__c</members>
         <members>Idea.Categories</members>
         <members>Idea.Status</members>
         <members>IncomingEmail__c.Body__c</members>
@@ -621,6 +622,7 @@
         <members>Macro.Name</members>
         <members>Macro.OwnerId</members>
         <members>Macro.StartingContext</members>
+        <members>Metric.OrigMetricId__c</members>
         <members>Opportunity.AccountId</members>
         <members>Opportunity.Amount</members>
         <members>Opportunity.CampaignId</members>
