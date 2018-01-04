@@ -1164,7 +1164,6 @@
     </types>
     <types>
         <members>CompanyDashboards</members>
-        <members>CompanyDashboards/AdoptionDashboard</members>
         <members>CompanyDashboards/CompanyPerformanceDashboard</members>
         <members>CompanyDashboards/Last_FQ_Leads</members>
         <members>CompanyDashboards/Pre_Sales</members>
@@ -1524,11 +1523,9 @@
         <members>Analytics Cloud Integration User</members>
         <members>Analytics Cloud Security User</members>
         <members>Authenticated Website</members>
-        <members>AutoRABIT Sales</members>
         <members>Chatter External User</members>
         <members>Chatter Free User</members>
         <members>Chatter Moderator User</members>
-        <members>Chatter Only User</members>
         <members>Content Only User</members>
         <members>ContractManager</members>
         <members>Cross Org Data Proxy User</members>
