@@ -183,7 +183,6 @@
         <name>ConnectedApp</name>
     </types>
     <types>
-        <members>AutoRABIT_Support</members>
         <members>External_Orders</members>
         <members>Sampath</members>
         <members>Trailblazer</members>
@@ -1526,7 +1525,6 @@
         <members>Chatter External User</members>
         <members>Chatter Free User</members>
         <members>Chatter Moderator User</members>
-        <members>Content Only User</members>
         <members>ContractManager</members>
         <members>Cross Org Data Proxy User</members>
         <members>Custom%3A Marketing Profile</members>
@@ -1538,7 +1536,6 @@
         <members>Customer Community User</members>
         <members>Customer Portal Manager Custom</members>
         <members>Customer Portal Manager Standard</members>
-        <members>Customer Portal Profile</members>
         <members>CustomerManager</members>
         <members>CustomerUser</members>
         <members>External Identity User</members>
@@ -1762,8 +1759,6 @@
         <name>Settings</name>
     </types>
     <types>
-        <members>Account</members>
-        <members>Asset</members>
         <members>Base64__c</members>
         <members>Campaign</members>
         <members>Case</members>
